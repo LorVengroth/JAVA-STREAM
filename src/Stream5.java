@@ -19,7 +19,7 @@ public class Stream5 {
 
         List<String> allCNames = users.stream()
                 .filter(name -> name.startsWith("C")) // Find ALL names starting with 'C'
-                .toList();                            // Gather them into a list
+                .toList();                    ,        // Gather them into a list
 
         System.out.println("Users starting with C: " + allCNames);
 
